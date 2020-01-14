@@ -200,32 +200,21 @@
             ],
         });
 
-
         /* ==================================================
-            # Team Carousel
+            # Team (Repurposed) Carousel
          ===============================================*/
-        $('.team-carousel').owlCarousel({
+         $('.team-carousel').owlCarousel({
             loop: false,
-            margin: 30,
-            nav: false,
+            nav: true,
+            dots: false,
+            autoplay: true,
+            items: 1,
             navText: [
                 "<i class='fa fa-angle-left'></i>",
                 "<i class='fa fa-angle-right'></i>"
             ],
-            dots: true,
-            autoplay: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 2
-                },
-                1000: {
-                    items: 3
-                }
-            }
         });
+
 
 
         /* ==================================================
